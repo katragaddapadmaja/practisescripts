@@ -22,8 +22,4 @@ print(driver.title)
 #print "eBay" in driver.title
 if "eBay" in driver.title:
     print "eBay page loaded"
-#driver.quit()
-print driver.page_source
-print driver.current_url
-driver.close()
-driver.
+driver.quit()
